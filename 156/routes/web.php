@@ -13,16 +13,8 @@
 
 Route::get('/', function () {
 
-    $tasks = [
-        'Go to the store',
-        'Go to the market',
-        'Go to the work',
-        'Go to the concert',
-    ];
-
     return view('welcome', [
-        'tasks' => $tasks,
-        'foo' => 'foobar'
+        'foo' => 'bar'
     ]);
 });
 
